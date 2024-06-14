@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-flowty-triposr"
+description = "This is a custom node that lets you use TripoSR right from ComfyUI.\n[a/TripoSR](https://github.com/VAST-AI-Research/TripoSR) is a state-of-the-art open-source model for fast feedforward 3D reconstruction from a single image, collaboratively developed by Tripo AI and Stability AI. (TL;DR it creates a 3d model from an image.)"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["omegaconf==2.3.0", "Pillow==10.1.0", "einops==0.7.0", "transformers==4.35.0", "trimesh==4.0.5", "huggingface-hub", "imageio[ffmpeg]", "scikit-image"]
+
+[project.urls]
+Repository = "https://github.com/flowtyone/ComfyUI-Flowty-TripoSR"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Flowty-TripoSR"
+Icon = ""
